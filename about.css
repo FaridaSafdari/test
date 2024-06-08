@@ -1,0 +1,107 @@
+
+html, body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#d8e4bc;
+}
+
+
+nav{
+    background-color:#87a96b ;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:10px;
+    display:flex;
+    gap:20px;
+    justify-content:right;
+
+    position:fixed;
+    top:0;
+    width:100%;
+    opacity:0.9;
+    z-index: 1;
+    
+    
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+a:hover {
+  background-color: gray;
+  font-size: 150%;
+  
+}
+a:visited {
+  color: green;
+}
+footer{
+    background-color:#87a96b;
+    color:white;
+    text-align:center;
+    height:40px;
+}
+
+
+.members{
+   width:200px;
+   padding-top: 10px;
+   
+    
+}
+.members img{
+    width:150px;
+    border-radius: 55%;
+    height: 150px;
+}
+.team{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.team .name{
+    padding-top: 10px;
+}
+
+
+
+.container{
+    background-color: white;
+    width: 800px; 
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:30px;
+    
+}
+.img-container{
+    position:relative;
+    
+    
+}
+
+.img-container .caption {
+    visibility:hidden;
+    position:absolute;
+    top:0;
+    right:0;
+
+     background-color:grey; 
+    color:white;
+    font-size:24px;
+    padding:15px;
+}
+.img-container:hover .caption{
+    visibility:visible;
+}
